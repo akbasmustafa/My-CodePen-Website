@@ -1,0 +1,26 @@
+header{
+  position:fixed;
+  top:0px;
+  height:19px;
+  padding:25px 0px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background-color:#AAAAAA;
+  opacity:0.7;
+}
+
+@Media (max-width: 500px;) {
+  body{
+    flex-wrap:wrap;
+  }
+}
+
+body{
+  position:relative;
+  top:100px;
+  font-size:20px;
+}
+.unorderlist {
+  padding-left: 500px;
+}
